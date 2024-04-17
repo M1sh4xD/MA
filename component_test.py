@@ -4,7 +4,7 @@ from uuid import UUID, uuid4
 from datetime import datetime
 import json
 
-base_url = 'http://localhost:1025/'
+base_url = 'http://localhost:80/'
 
 def test_root_get():
     res = requests.get(base_url).json()

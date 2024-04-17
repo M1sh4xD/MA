@@ -43,4 +43,4 @@ async def get_list(q: list | None = Query()):
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("PORT", 1025)))
+    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("PORT", 80)))
